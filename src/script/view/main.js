@@ -1,16 +1,16 @@
-const main = function () {
+const main = () => {
     const searchElement = document.querySelector("#searchElement");
     const buttonSearchElement = document.querySelector("#searchButtonElement");
     const clubListElement = document.querySelector("#clubList");
 
-    const onButtonSearchClicked = function () {
+    const onButtonSearchClicked = () => {
         const dataSource = new DataSource(renderResult, fallbackResult);
         dataSource.searchClub(searchElement.value);
     };
 
-    const renderResult = function (results) {
+    const renderResult = (results) => {
         clubListElement.innerHTML = "";
-        results.forEach(function (club) {
+        results.forEach(club => {
             const {
                 name,
                 fanArt,
