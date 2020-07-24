@@ -3,7 +3,7 @@ import DataSource from "../data/data-source.js";
 
 const main = () => {
     const searchElement = document.querySelector("search-bar");
-    const clubListElement = document.querySelector("#clubList");
+    const clubListElement = document.querySelector("club-list");
 
     const onButtonSearchClicked = async () => {
         DataSource.searchClub(searchElement.value)
