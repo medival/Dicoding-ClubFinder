@@ -1,7 +1,7 @@
 import DataSource from "../data/data-source.js";
 
 const main = () => {
-    const searchElement = document.querySelector("#searchElement");
+    const searchElement = document.querySelector("#search-bar");
     const buttonSearchElement = document.querySelector("#searchButtonElement");
     const clubListElement = document.querySelector("#clubList");
 
