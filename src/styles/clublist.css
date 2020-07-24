@@ -1,4 +1,5 @@
 club-list {
+    display: block;
     margin-top: 32px;
     width: 100%;
     padding: 16px;
@@ -14,6 +15,7 @@ club-list>.placeholder {
 }
 
 club-item {
+    display: block;
     margin-bottom: 18px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 10px;
