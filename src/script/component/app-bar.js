@@ -4,7 +4,7 @@ class AppBar extends HTMLElement {
     }
 
     render() {
-        this.innerHTML = `<div id="appBar" class="app-bar">`;
+        this.innerHTML = `<h2> Club Finder </h2>`;
     }
 }
 
