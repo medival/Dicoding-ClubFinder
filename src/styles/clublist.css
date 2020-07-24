@@ -5,15 +5,6 @@ club-list {
     padding: 16px;
 }
 
-club-list>.placeholder {
-    font-weight: lighter;
-    color: rgba(0, 0, 0, 0.5);
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
 club-item {
     display: block;
     margin-bottom: 18px;
