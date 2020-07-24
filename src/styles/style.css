@@ -17,3 +17,10 @@ main {
     max-width: 800px;
     margin: 32px auto;
 }
+
+club-list {
+    display: block;
+    margin-top: 32px;
+    width: 100%;
+    padding: 16px;
+}
