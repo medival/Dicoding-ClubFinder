@@ -14,9 +14,10 @@ class ClubList extends HTMLElement {
             this.appendChild(clubItemElement);
         })
     }
+
     renderError(message) {
-        clubListElement.innerHTML = "";
-        clubListElement.innerHTML += `<h2 class="placeholder"> ${message} </h2>`;
+        this.innerHTML = "";
+        this.innerHTML += `<h2 class="placeholder"> ${message} </h2>`;
     }
 }
 
